@@ -37,8 +37,8 @@ public String noPunctuation(String word){
   String p = new String();
   for(int i = 0;i<word.length(); i++)
   {
-  if(Character.isLetter(word.charAt(i)) == true)
-  p = p + word.charAt(i);
+    if(Character.isLetter(word.charAt(i)) == true)
+    p = p + word.charAt(i);
   }
   return p;
 }
